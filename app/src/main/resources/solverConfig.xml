@@ -1,0 +1,12 @@
+<solver>
+    <solutionClass>org.example.SolucaoProducao</solutionClass>
+    <entityClass>org.example.Produto</entityClass>
+
+    <scoreDirectorFactory>
+        <easyScoreCalculatorClass>org.example.ProducaoScoreCalculator</easyScoreCalculatorClass>
+    </scoreDirectorFactory>
+
+    <termination>
+        <secondsSpentLimit>10</secondsSpentLimit>
+    </termination>
+</solver>
